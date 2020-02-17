@@ -20,14 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="698ad2f7-b177-41aa-a708-21c2648ac109" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/product-sale-service/src/main/java/com/kadircemtuna/challenge/productsaleservice/controller/ProductOrderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-sale-service/src/main/java/com/kadircemtuna/challenge/productsaleservice/dto/ProductOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-sale-service/src/main/java/com/kadircemtuna/challenge/productsaleservice/entity/ProductOrderEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-sale-service/src/main/java/com/kadircemtuna/challenge/productsaleservice/service/ProductOrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-sale-service/src/main/java/com/kadircemtuna/challenge/productsaleservice/service/ProductOrderServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../product-info-service/product-info-service/src/main/java/com/kadircemtuna/challenge/productinfoservice/entity/ProductEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../product-info-service/product-info-service/src/main/java/com/kadircemtuna/challenge/productinfoservice/entity/ProductEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product-shipping-service/product-shipping-service/src/main/java/com/kadircemtuna/challenge/productshippingservice/common/GeneralEnumeration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product-shipping-service/product-shipping-service/src/main/java/com/kadircemtuna/challenge/productshippingservice/controller/ShipmentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product-shipping-service/product-shipping-service/src/main/java/com/kadircemtuna/challenge/productshippingservice/dto/Shipment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product-shipping-service/product-shipping-service/src/main/java/com/kadircemtuna/challenge/productshippingservice/entity/ShipmentEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product-shipping-service/product-shipping-service/src/main/java/com/kadircemtuna/challenge/productshippingservice/service/ShipmentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product-shipping-service/product-shipping-service/src/main/java/com/kadircemtuna/challenge/productshippingservice/service/ShipmentServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-sale-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/product-sale-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product-shipping-service/product-shipping-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../product-shipping-service/product-shipping-service/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +86,7 @@
       <option name="presentableId" value="Default" />
       <updated>1581932692553</updated>
       <workItem from="1581932694145" duration="1534000" />
-      <workItem from="1581937463853" duration="639000" />
+      <workItem from="1581937463853" duration="1729000" />
     </task>
     <servers />
   </component>
