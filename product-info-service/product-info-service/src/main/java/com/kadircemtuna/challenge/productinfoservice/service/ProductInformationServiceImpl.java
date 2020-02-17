@@ -18,11 +18,7 @@ public class ProductInformationServiceImpl implements ProductInformationService 
   @Override
   public Product inquireProduct(Long productId) {
     Optional<ProductEntity> productEntity = this.productRepository.findById(productId);
-    if (productEntity.isPresent()) {
-      Product product = this.buildProduct(productEntity.get());
-      return product;
-    }
-    return null;
+    return productEntity.map(this::buildProduct).orElse(null);
   }
 
   private Product buildProduct(ProductEntity productEntity) {
@@ -31,33 +27,25 @@ public class ProductInformationServiceImpl implements ProductInformationService 
     product.setName(productEntity.getName());
     product.setPrice(productEntity.getPrice());
     product.setImage(productEntity.getImage());
-    product.setStatus(productEntity.getStatus());
+    product.setCategory(productEntity.getCategory());
     return product;
   }
 
   @Override
-  public Product createProduct(Product product) throws ValidationException {
+  public void createProduct(Product product) throws ValidationException {
     this.validateProduct(product);
 
     ProductEntity productEntity = this.buildProductEntity(product);
     this.productRepository.save(productEntity);
-
-    return product;
   }
 
   private void validateProduct(Product product) throws ValidationException {
-    if (product.getId() == null || product.getId() < 0L)
-      throw new ValidationException("validateProduct, productId is mandatory.");
-    Optional<ProductEntity> productEntity = this.productRepository.findById(product.getId());
-    if (productEntity.isPresent())
-      throw new ValidationException("validateProduct, this id already exist.");
     if (product.getName().isEmpty())
       throw new ValidationException("validateProduct, name is mandatory.");
-    if (product.getPrice() == null || product.getId() < 0D)
+    if (product.getPrice() == null || product.getPrice() < 0D)
       throw new ValidationException("validateProduct, price is mandatory.");
-    if (product.getStatus().isEmpty())
-      throw new ValidationException("validateProduct, status is mandatory.");
-
+    if (product.getCategory().isEmpty())
+      throw new ValidationException("validateProduct, category is mandatory.");
   }
 
   private ProductEntity buildProductEntity(Product product) {
@@ -66,19 +54,19 @@ public class ProductInformationServiceImpl implements ProductInformationService 
     productEntity.setName(product.getName());
     productEntity.setPrice(product.getPrice());
     productEntity.setProductId(product.getId());
-    productEntity.setStatus(product.getStatus());
+    productEntity.setCategory(product.getCategory());
     return productEntity;
   }
 
   @Override
   public Product createDummyProduct() throws ValidationException {
     Product product = new Product();
-    long id = ThreadLocalRandom.current().nextLong(1,99999);
+    long id = ThreadLocalRandom.current().nextLong(1, 99999);
     product.setId(id);
-    product.setStatus("dummy" + id);
-    double price = ThreadLocalRandom.current().nextDouble(1,99999);
+    product.setCategory("dummy" + id);
+    double price = ThreadLocalRandom.current().nextDouble(1, 99999);
     product.setPrice(price);
     product.setName("dummy" + price);
-    return this.createProduct(product);
+    return product;
   }
 }

@@ -7,6 +7,7 @@ import javax.persistence.*;
 public class ProductOrderEntity {
   @GeneratedValue(strategy = GenerationType.AUTO)
   @Id
+  @Column(name = "productOrderId")
   private Long productOrderId;
   @Column(name = "productId")
   private Long productId;
