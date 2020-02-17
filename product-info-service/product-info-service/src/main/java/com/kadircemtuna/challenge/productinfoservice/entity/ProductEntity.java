@@ -1,10 +1,11 @@
 package com.kadircemtuna.challenge.productinfoservice.entity;
 
 import javax.persistence.*;
+import java.io.Serializable;
 
 @Table(name = "product")
 @Entity
-public class ProductEntity {
+public class ProductEntity implements Serializable {
 
   @GeneratedValue(strategy = GenerationType.AUTO)
   @Id
