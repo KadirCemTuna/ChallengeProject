@@ -1,11 +1,21 @@
 package com.kadircemtuna.challenge.productinfoservice.entity;
 
+import javax.persistence.*;
+
+@Table(name = "product")
+@Entity
 public class ProductEntity {
 
+  @GeneratedValue(strategy = GenerationType.AUTO)
+  @Id
   private Long productId;
+  @Column(name = "status")
   private String status;
+  @Column(name = "price")
   private Double price;
+  @Column(name = "name")
   private String name;
+  @Column(name = "image")
   private String image;
 
   public Long getProductId() {
