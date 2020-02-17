@@ -9,9 +9,7 @@ public class ProductInformationServiceImpl implements ProductInformationService 
   @Override
   public Product inquireProduct(Long productId) {
 
-    Product product = new Product(1L, GeneralEnumeration.ProductStatus.Active.name()
+    return new Product(1L, GeneralEnumeration.ProductStatus.Active.name()
         , 123.5D, "Keyboard", "asddasd");
-
-    return product;
   }
 }
