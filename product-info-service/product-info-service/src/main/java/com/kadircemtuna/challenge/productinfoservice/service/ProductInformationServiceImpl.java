@@ -64,9 +64,12 @@ public class ProductInformationServiceImpl implements ProductInformationService 
     long id = ThreadLocalRandom.current().nextLong(1, 99999);
     product.setId(id);
     product.setCategory("dummy" + id);
+
     double price = ThreadLocalRandom.current().nextDouble(1, 99999);
     product.setPrice(price);
     product.setName("dummy" + price);
+
+    this.createProduct(product);
     return product;
   }
 }

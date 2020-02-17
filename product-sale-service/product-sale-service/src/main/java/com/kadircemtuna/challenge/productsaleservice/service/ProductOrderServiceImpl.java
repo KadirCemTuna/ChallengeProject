@@ -3,76 +3,94 @@ package com.kadircemtuna.challenge.productsaleservice.service;
 import com.kadircemtuna.challenge.productsaleservice.dto.Product;
 import com.kadircemtuna.challenge.productsaleservice.dto.ProductOrder;
 import com.kadircemtuna.challenge.productsaleservice.entity.ProductOrderEntity;
+import com.kadircemtuna.challenge.productsaleservice.gateway.ProductInformationGateway;
 import com.kadircemtuna.challenge.productsaleservice.repository.ProductOrderRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import org.springframework.web.client.RestTemplate;
+import org.springframework.util.CollectionUtils;
 
 import javax.xml.bind.ValidationException;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Optional;
 import java.util.UUID;
+import java.util.concurrent.ThreadLocalRandom;
+import java.util.stream.Collectors;
 
 @Service
 public class ProductOrderServiceImpl implements ProductOrderService {
   @Autowired
   private ProductOrderRepository productOrderRepository;
+  @Autowired
+  private ProductInformationGateway productInformationGateway;
 
   @Override
-  public void createProductOrder(List<Long> productIdList) throws ValidationException {
-    this.validateProductOrder(productIdList);
-    List<Long> productIdList = productOrder.getProductIdList();
-    productIdList.stream()
-        .map(id -> this.buildProductOrderEntity(productOrder, id))
+  public void createProductOrder(List<Long> productIds) throws ValidationException {
+    String saleCode = UUID.randomUUID().toString();
+
+    this.validateProductOrder(productIds);
+    productIds.stream()
+        .map((Long id) -> buildProductOrderEntity(id, saleCode))
         .forEach(productOrderEntity -> this.productOrderRepository.save(productOrderEntity));
   }
 
-  private ProductOrderEntity buildProductOrderEntity(ProductOrder productOrder, Long id) {
+  private ProductOrderEntity buildProductOrderEntity(Long id, String saleCode) {
     ProductOrderEntity productOrderEntity = new ProductOrderEntity();
     productOrderEntity.setProductId(id);
-    productOrderEntity.setProductOrderId(productOrder.getProductOrderId());
-    productOrderEntity.setSaleCode(UUID.randomUUID().toString());
+    productOrderEntity.setSaleCode(saleCode);
     return productOrderEntity;
   }
 
   private void validateProductOrder(List<Long> productIdList) throws ValidationException {
-    Optional<ProductOrderEntity> productOrderEntity = this.productOrderRepository.findById(productOrder.getProductOrderId());
-    if (productOrderEntity.isPresent())
-      throw new ValidationException("validateProductOrder, this id already exist.");
-    if (productOrder.getProductIdList().isEmpty()) {
+    if (CollectionUtils.isEmpty(productIdList)) {
       throw new ValidationException("validateProductOrder, there is no product in this order.");
     }
   }
 
   @Override
-  public ProductOrder createDummyProductOrder() {
-    return null;
+  public void createDummyProductOrder() throws ValidationException {
+    List<Long> productIdList = new ArrayList<>();
+    for (int i = 0; i < 3; i++) {
+      long id = ThreadLocalRandom.current().nextLong(1, 10);
+      productIdList.add(id);
+    }
+    this.createProductOrder(productIdList);
   }
 
   @Override
   public ProductOrder inquireProductOrder(Long orderId) {
-    if (orderId != null) {
-      List<ProductOrderEntity> productOrderEntities = this.productOrderRepository.findByProductOrderId(orderId);
+    ProductOrderEntity productOrderEntity = this.productOrderRepository.findByProductOrderId(orderId);
+    if (productOrderEntity != null) {
+      List<ProductOrderEntity> productOrderEntities = this.productOrderRepository.findBySaleCode(productOrderEntity.getSaleCode());
+
       List<Product> productList = new ArrayList<>();
-      for (ProductOrderEntity productOrderEntity : productOrderEntities) {
-        RestTemplate restTemplate = new RestTemplate();
-        Product product = restTemplate.getForObject("http://localhost:8080/product/" + orderId, Product.class);
+      for (ProductOrderEntity orderEntity : productOrderEntities) {
+        Product product = this.productInformationGateway.inquireProduct(orderEntity.getProductId());
         productList.add(product);
       }
 
-      ProductOrder productOrder = new ProductOrder();
-      productOrder.setProduct(productList);
-
-      String saleCode = productOrderEntities.stream()
-          .map(ProductOrderEntity::getSaleCode)
-          .findFirst()
-          .orElse("");
-      productOrder.setSaleCode(saleCode);
-
-      productOrder.setProductOrderId(orderId);
-      return productOrder;
+      if (!CollectionUtils.isEmpty(productList)) {
+        return this.buildProductOffer(orderId, productOrderEntities, productList);
+      }
     }
     return null;
+  }
+
+  private ProductOrder buildProductOffer(Long orderId, List<ProductOrderEntity> productOrderEntities, List<Product> productList) {
+    ProductOrder productOrder = new ProductOrder();
+    productOrder.setProduct(productList);
+
+    String saleCode = productOrderEntities.stream()
+        .map(ProductOrderEntity::getSaleCode)
+        .findFirst()
+        .orElse("");
+    productOrder.setSaleCode(saleCode);
+
+    List<Long> productIdList = productOrderEntities.stream()
+        .map(ProductOrderEntity::getProductId)
+        .collect(Collectors.toList());
+    productOrder.setProductIdList(productIdList);
+
+    productOrder.setProductOrderId(orderId);
+    return productOrder;
   }
 }

@@ -6,9 +6,9 @@ import javax.xml.bind.ValidationException;
 import java.util.List;
 
 public interface ProductOrderService {
-  void createProductOrder(List<Long> productIdList) throws ValidationException;
+  void createProductOrder(List<Long> productIds) throws ValidationException;
 
   ProductOrder inquireProductOrder(Long orderId);
 
-  ProductOrder createDummyProductOrder();
+  void createDummyProductOrder() throws ValidationException;
 }
