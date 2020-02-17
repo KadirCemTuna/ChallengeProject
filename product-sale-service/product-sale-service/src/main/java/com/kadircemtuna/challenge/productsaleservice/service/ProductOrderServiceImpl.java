@@ -2,8 +2,10 @@ package com.kadircemtuna.challenge.productsaleservice.service;
 
 import com.kadircemtuna.challenge.productsaleservice.dto.Product;
 import com.kadircemtuna.challenge.productsaleservice.dto.ProductOrder;
+import com.kadircemtuna.challenge.productsaleservice.dto.Shipment;
 import com.kadircemtuna.challenge.productsaleservice.entity.ProductOrderEntity;
 import com.kadircemtuna.challenge.productsaleservice.gateway.ProductInformationGateway;
+import com.kadircemtuna.challenge.productsaleservice.gateway.ProductShipmentGateway;
 import com.kadircemtuna.challenge.productsaleservice.repository.ProductOrderRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -22,6 +24,8 @@ public class ProductOrderServiceImpl implements ProductOrderService {
   private ProductOrderRepository productOrderRepository;
   @Autowired
   private ProductInformationGateway productInformationGateway;
+  @Autowired
+  private ProductShipmentGateway productShipmentGateway;
 
   @Override
   public void createProductOrder(List<Long> productIds) throws ValidationException {
@@ -92,5 +96,10 @@ public class ProductOrderServiceImpl implements ProductOrderService {
 
     productOrder.setProductOrderId(orderId);
     return productOrder;
+  }
+
+  @Override
+  public Shipment inquireShipment(Long orderId) {
+    return this.productShipmentGateway.inquireShipment(orderId);
   }
 }
