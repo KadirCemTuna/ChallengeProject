@@ -5,10 +5,7 @@ import com.kadircemtuna.challenge.productinfoservice.service.ProductInformationS
 import org.apache.tomcat.util.modeler.OperationInfo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.expression.Operation;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import javax.xml.bind.ValidationException;
 
@@ -28,4 +25,13 @@ public class ProductInformationController {
       throw new ValidationException("There is no such a product with this id");
   }
 
+  @PostMapping()
+  public void createProduct(@RequestBody Product product) throws ValidationException {
+    this.productInformationService.createProduct(product);
+  }
+
+  @GetMapping("/dummy")
+  public Product createDummyProduct() throws ValidationException {
+   return this.productInformationService.createDummyProduct();
+  }
 }
