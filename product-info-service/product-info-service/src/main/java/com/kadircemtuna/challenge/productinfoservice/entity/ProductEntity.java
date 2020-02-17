@@ -9,8 +9,8 @@ public class ProductEntity {
   @GeneratedValue(strategy = GenerationType.AUTO)
   @Id
   private Long productId;
-  @Column(name = "status")
-  private String status;
+  @Column(name = "category")
+  private String category;
   @Column(name = "price")
   private Double price;
   @Column(name = "name")
@@ -26,12 +26,12 @@ public class ProductEntity {
     this.productId = productId;
   }
 
-  public String getStatus() {
-    return status;
+  public String getCategory() {
+    return category;
   }
 
-  public void setStatus(String status) {
-    this.status = status;
+  public void setCategory(String status) {
+    this.category = status;
   }
 
   public Double getPrice() {
@@ -62,7 +62,7 @@ public class ProductEntity {
   public String toString() {
     return "{" +
         "id:" + productId +
-        ", status:'" + status + '\'' +
+        ", status:'" + category + '\'' +
         ", price:" + price +
         ", name:'" + name + '\'' +
         ", image:'" + image + '\'' +
