@@ -2,18 +2,18 @@ package com.kadircemtuna.challenge.productinfoservice.entity;
 
 public class ProductEntity {
 
-  private Long id;
+  private Long productId;
   private String status;
   private Double price;
   private String name;
   private String image;
 
-  public Long getId() {
-    return id;
+  public Long getProductId() {
+    return productId;
   }
 
-  public void setId(Long id) {
-    this.id = id;
+  public void setProductId(Long productId) {
+    this.productId = productId;
   }
 
   public String getStatus() {
@@ -51,7 +51,7 @@ public class ProductEntity {
   @Override
   public String toString() {
     return "{" +
-        "id:" + id +
+        "id:" + productId +
         ", status:'" + status + '\'' +
         ", price:" + price +
         ", name:'" + name + '\'' +
