@@ -31,4 +31,12 @@ public class Shipment {
   public void setCreatedAt(Date createdAt) {
     this.createdAt = createdAt;
   }
+
+  public ProductOrder getProductOrder() {
+    return productOrder;
+  }
+
+  public void setProductOrder(ProductOrder productOrder) {
+    this.productOrder = productOrder;
+  }
 }
