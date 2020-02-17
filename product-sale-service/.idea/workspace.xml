@@ -20,12 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="698ad2f7-b177-41aa-a708-21c2648ac109" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../product-shipping-service/product-shipping-service/src/main/java/com/kadircemtuna/challenge/productshippingservice/gateway/ProductSaleGateway.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../product-shipping-service/product-shipping-service/src/main/java/com/kadircemtuna/challenge/productshippingservice/gateway/ProductSaleGatewayImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../product-shipping-service/product-shipping-service/src/main/java/com/kadircemtuna/challenge/productshippingservice/repository/ShipmentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product-shipping-service/product-shipping-service/src/main/java/com/kadircemtuna/challenge/productshippingservice/common/CreateShipmentRequest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../product-shipping-service/product-shipping-service/src/main/java/com/kadircemtuna/challenge/productshippingservice/controller/ShipmentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../product-shipping-service/product-shipping-service/src/main/java/com/kadircemtuna/challenge/productshippingservice/controller/ShipmentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../product-shipping-service/product-shipping-service/src/main/java/com/kadircemtuna/challenge/productshippingservice/dto/Shipment.java" beforeDir="false" afterPath="$PROJECT_DIR$/../product-shipping-service/product-shipping-service/src/main/java/com/kadircemtuna/challenge/productshippingservice/dto/Shipment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product-shipping-service/product-shipping-service/src/main/java/com/kadircemtuna/challenge/productshippingservice/service/ShipmentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../product-shipping-service/product-shipping-service/src/main/java/com/kadircemtuna/challenge/productshippingservice/service/ShipmentService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../product-shipping-service/product-shipping-service/src/main/java/com/kadircemtuna/challenge/productshippingservice/service/ShipmentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../product-shipping-service/product-shipping-service/src/main/java/com/kadircemtuna/challenge/productshippingservice/service/ShipmentServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -99,7 +97,7 @@
       <workItem from="1581961568653" duration="6408000" />
       <workItem from="1581968208059" duration="38000" />
       <workItem from="1581968434830" duration="154000" />
-      <workItem from="1581968705290" duration="758000" />
+      <workItem from="1581968705290" duration="1514000" />
     </task>
     <servers />
   </component>
