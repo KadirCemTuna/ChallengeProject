@@ -2,16 +2,14 @@ package com.kadircemtuna.challenge.productsaleservice.controller;
 
 import com.kadircemtuna.challenge.productsaleservice.common.CreateProductOrderRequest;
 import com.kadircemtuna.challenge.productsaleservice.dto.ProductOrder;
+import com.kadircemtuna.challenge.productsaleservice.dto.Shipment;
 import com.kadircemtuna.challenge.productsaleservice.service.ProductOrderService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import javax.xml.bind.ValidationException;
-import java.net.URI;
-import java.util.List;
 
 @RestController
 @RequestMapping("/sale")
@@ -39,5 +37,15 @@ public class ProductOrderController {
   public ResponseEntity<Void> createDummyProductOrder() throws ValidationException {
     this.productOrderService.createDummyProductOrder();
     return new ResponseEntity<Void>(HttpStatus.CREATED);
+  }
+
+  @GetMapping("/{saleId}/shipment")
+  public ResponseEntity<Shipment> inquireShipment(@PathVariable("saleId") Long orderId) {
+    Shipment shipment = this.productOrderService.inquireShipment(orderId);
+    if (shipment != null) {
+      return new ResponseEntity<Shipment>(shipment, HttpStatus.OK);
+    } else {
+      return new ResponseEntity<>(HttpStatus.NO_CONTENT);
+    }
   }
 }

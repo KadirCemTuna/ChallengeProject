@@ -6,6 +6,7 @@ import org.springframework.web.client.RestTemplate;
 
 @Component
 public class ProductInformationGatewayImpl implements ProductInformationGateway {
+
   @Override
   public Product inquireProduct(Long productId) {
     String url = "http://localhost:8080/product/" + productId.toString();

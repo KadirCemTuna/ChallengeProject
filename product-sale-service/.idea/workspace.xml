@@ -20,10 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="698ad2f7-b177-41aa-a708-21c2648ac109" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../product-info-service/product-info-service/src/main/java/com/kadircemtuna/challenge/productinfoservice/controller/ProductInformationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../product-info-service/product-info-service/src/main/java/com/kadircemtuna/challenge/productinfoservice/controller/ProductInformationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../product-info-service/product-info-service/src/main/java/com/kadircemtuna/challenge/productinfoservice/service/ProductInformationServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../product-info-service/product-info-service/src/main/java/com/kadircemtuna/challenge/productinfoservice/service/ProductInformationServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-sale-service/src/main/java/com/kadircemtuna/challenge/productsaleservice/dto/Shipment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-sale-service/src/main/java/com/kadircemtuna/challenge/productsaleservice/gateway/ProductShipmentGateway.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-sale-service/src/main/java/com/kadircemtuna/challenge/productsaleservice/gateway/ProductShipmentGatewayImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-sale-service/src/main/java/com/kadircemtuna/challenge/productsaleservice/dto/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-sale-service/src/main/java/com/kadircemtuna/challenge/productsaleservice/dto/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-sale-service/src/main/java/com/kadircemtuna/challenge/productsaleservice/controller/ProductOrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-sale-service/src/main/java/com/kadircemtuna/challenge/productsaleservice/controller/ProductOrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-sale-service/src/main/java/com/kadircemtuna/challenge/productsaleservice/gateway/ProductInformationGatewayImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-sale-service/src/main/java/com/kadircemtuna/challenge/productsaleservice/gateway/ProductInformationGatewayImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-sale-service/src/main/java/com/kadircemtuna/challenge/productsaleservice/service/ProductOrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-sale-service/src/main/java/com/kadircemtuna/challenge/productsaleservice/service/ProductOrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-sale-service/src/main/java/com/kadircemtuna/challenge/productsaleservice/service/ProductOrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-sale-service/src/main/java/com/kadircemtuna/challenge/productsaleservice/service/ProductOrderServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,6 +100,7 @@
       <workItem from="1581961568653" duration="6408000" />
       <workItem from="1581968208059" duration="38000" />
       <workItem from="1581968434830" duration="154000" />
+      <workItem from="1581968705290" duration="2146000" />
     </task>
     <servers />
   </component>
@@ -118,15 +123,15 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="223" y="87" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.864@0.0.1536.864" timestamp="1581932699713" />
-    <state x="574" y="116" key="#com.intellij.ide.util.MemberChooser" timestamp="1581965643250">
+    <state x="574" y="116" key="#com.intellij.ide.util.MemberChooser" timestamp="1581970965604">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="574" y="116" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864/-1920.9.1920.1080@0.0.1536.864" timestamp="1581952160736" />
-    <state x="574" y="116" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864@0.0.1536.864" timestamp="1581965643250" />
-    <state x="330" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1581968463752">
+    <state x="574" y="116" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864@0.0.1536.864" timestamp="1581970965604" />
+    <state x="330" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1581971050915">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="330" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.864@0.0.1536.864" timestamp="1581968463752" />
+    <state x="330" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.864@0.0.1536.864" timestamp="1581971050915" />
     <state width="485" height="466" key="DebuggerActiveHint" timestamp="1581966564982">
       <screen x="0" y="0" width="1536" height="864" />
     </state>

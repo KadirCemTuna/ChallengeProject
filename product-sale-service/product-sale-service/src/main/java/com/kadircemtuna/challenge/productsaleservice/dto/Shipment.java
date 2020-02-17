@@ -1,4 +1,4 @@
-package com.kadircemtuna.challenge.productshippingservice.dto;
+package com.kadircemtuna.challenge.productsaleservice.dto;
 
 import java.util.Date;
 
