@@ -5,7 +5,7 @@ import java.util.List;
 public class ProductOrder {
   private Long productOrderId;
   private String saleCode;
-  private Long productId;
+  private List<Long> productIdList;
   private List<Product> product;
 
   public Long getProductOrderId() {
@@ -24,12 +24,12 @@ public class ProductOrder {
     this.saleCode = saleCode;
   }
 
-  public Long getProductId() {
-    return productId;
+  public List<Long> getProductIdList() {
+    return productIdList;
   }
 
-  public void setProductId(Long productId) {
-    this.productId = productId;
+  public void setProductIdList(List<Long> productIdList) {
+    this.productIdList = productIdList;
   }
 
   public List<Product> getProduct() {
@@ -45,7 +45,7 @@ public class ProductOrder {
     return "{" +
         "productOrderId:" + productOrderId +
         ", saleCode:'" + saleCode + '\'' +
-        ", productId:" + productId +
+        ", productIdList:" + productIdList +
         ", product:" + product +
         '}';
   }

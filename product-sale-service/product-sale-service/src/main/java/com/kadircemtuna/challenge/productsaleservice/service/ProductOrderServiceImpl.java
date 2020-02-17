@@ -9,6 +9,8 @@ import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
 import javax.xml.bind.ValidationException;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Optional;
 import java.util.UUID;
 
@@ -18,30 +20,27 @@ public class ProductOrderServiceImpl implements ProductOrderService {
   private ProductOrderRepository productOrderRepository;
 
   @Override
-  public ProductOrder createProductOrder(ProductOrder productOrder) throws ValidationException {
-    this.validateProductOrder(productOrder);
-    ProductOrderEntity productOrderEntity = this.buildProductOrderEntity(productOrder);
-    this.productOrderRepository.save(productOrderEntity);
-    return null;
+  public void createProductOrder(List<Long> productIdList) throws ValidationException {
+    this.validateProductOrder(productIdList);
+    List<Long> productIdList = productOrder.getProductIdList();
+    productIdList.stream()
+        .map(id -> this.buildProductOrderEntity(productOrder, id))
+        .forEach(productOrderEntity -> this.productOrderRepository.save(productOrderEntity));
   }
 
-  private ProductOrderEntity buildProductOrderEntity(ProductOrder productOrder) {
+  private ProductOrderEntity buildProductOrderEntity(ProductOrder productOrder, Long id) {
     ProductOrderEntity productOrderEntity = new ProductOrderEntity();
-    productOrderEntity.setProductId(productOrder.getProductId());
+    productOrderEntity.setProductId(id);
     productOrderEntity.setProductOrderId(productOrder.getProductOrderId());
-    productOrderEntity.setSaleCode(productOrder.getSaleCode());
+    productOrderEntity.setSaleCode(UUID.randomUUID().toString());
     return productOrderEntity;
   }
 
-  private void validateProductOrder(ProductOrder productOrder) throws ValidationException {
-    if (productOrder.getProductOrderId() == null || productOrder.getProductOrderId() < 0L)
-      throw new ValidationException("validateProductOrder, productOrderId is mandatory.");
+  private void validateProductOrder(List<Long> productIdList) throws ValidationException {
     Optional<ProductOrderEntity> productOrderEntity = this.productOrderRepository.findById(productOrder.getProductOrderId());
     if (productOrderEntity.isPresent())
       throw new ValidationException("validateProductOrder, this id already exist.");
-    if (productOrder.getSaleCode().isEmpty())
-      throw new ValidationException("validateProductOrder, saleCode is mandatory.");
-    if (productOrder.getProductId() == null || productOrder.getProductId() < 0L) {
+    if (productOrder.getProductIdList().isEmpty()) {
       throw new ValidationException("validateProductOrder, there is no product in this order.");
     }
   }
@@ -53,15 +52,27 @@ public class ProductOrderServiceImpl implements ProductOrderService {
 
   @Override
   public ProductOrder inquireProductOrder(Long orderId) {
+    if (orderId != null) {
+      List<ProductOrderEntity> productOrderEntities = this.productOrderRepository.findByProductOrderId(orderId);
+      List<Product> productList = new ArrayList<>();
+      for (ProductOrderEntity productOrderEntity : productOrderEntities) {
+        RestTemplate restTemplate = new RestTemplate();
+        Product product = restTemplate.getForObject("http://localhost:8080/product/" + orderId, Product.class);
+        productList.add(product);
+      }
 
+      ProductOrder productOrder = new ProductOrder();
+      productOrder.setProduct(productList);
 
-    RestTemplate restTemplate = new RestTemplate();
-    Product template = restTemplate.getForObject("http://localhost:8080/product/" + orderId, Product.class);
+      String saleCode = productOrderEntities.stream()
+          .map(ProductOrderEntity::getSaleCode)
+          .findFirst()
+          .orElse("");
+      productOrder.setSaleCode(saleCode);
 
-    ProductOrder productOrder = new ProductOrder();
-    productOrder.setProduct(template);
-    productOrder.setSaleCode(UUID.randomUUID().toString());
-    productOrder.setProductOrderId(123L);
-    return productOrder;
+      productOrder.setProductOrderId(orderId);
+      return productOrder;
+    }
+    return null;
   }
 }
