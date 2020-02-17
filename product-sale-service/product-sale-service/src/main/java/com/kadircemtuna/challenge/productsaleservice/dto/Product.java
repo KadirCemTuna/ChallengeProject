@@ -2,7 +2,7 @@ package com.kadircemtuna.challenge.productsaleservice.dto;
 
 public class Product {
   private Long id;
-  private String status;
+  private String category;
   private Double price;
   private String name;
   private String image;
@@ -10,9 +10,9 @@ public class Product {
   public Product() {
   }
 
-  public Product(Long id, String status, Double price, String name, String image) {
+  public Product(Long id, String category, Double price, String name, String image) {
     this.id = id;
-    this.status = status;
+    this.category = category;
     this.price = price;
     this.name = name;
     this.image = image;
@@ -26,12 +26,12 @@ public class Product {
     this.id = id;
   }
 
-  public String getStatus() {
-    return status;
+  public String getCategory() {
+    return category;
   }
 
-  public void setStatus(String status) {
-    this.status = status;
+  public void setCategory(String category) {
+    this.category = category;
   }
 
   public Double getPrice() {

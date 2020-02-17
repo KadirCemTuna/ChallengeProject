@@ -69,6 +69,8 @@ public class ProductInformationServiceImpl implements ProductInformationService 
     product.setPrice(price);
     product.setName("dummy" + price);
 
+    product.setImage("image path will be here");
+
     this.createProduct(product);
     return product;
   }
