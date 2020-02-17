@@ -1,4 +1,4 @@
-package com.kadircemtuna.challenge.productinfoservice.dto;
+package com.kadircemtuna.challenge.productsaleservice.dto;
 
 public class Product {
   private Long id;
@@ -57,4 +57,6 @@ public class Product {
   public void setImage(String image) {
     this.image = image;
   }
+
+
 }

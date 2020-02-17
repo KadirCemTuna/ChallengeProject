@@ -3,7 +3,7 @@ package com.kadircemtuna.challenge.productsaleservice.dto;
 public class ProductOrder {
   private Long productOrderId;
   private String saleCode;
-  private Long productId;
+  private Product product;
 
   public Long getProductOrderId() {
     return productOrderId;
@@ -13,12 +13,12 @@ public class ProductOrder {
     this.productOrderId = productOrderId;
   }
 
-  public Long getProductId() {
-    return productId;
+  public Product getProduct() {
+    return product;
   }
 
-  public void setProductId(Long productId) {
-    this.productId = productId;
+  public void setProduct(Product product) {
+    this.product = product;
   }
 
   public String getSaleCode() {
@@ -34,7 +34,7 @@ public class ProductOrder {
     return "{" +
         "productOrderId:" + productOrderId +
         ", saleCode:'" + saleCode + '\'' +
-        ", productId:" + productId +
+        ", productId:" + product.getId() +
         '}';
   }
 }
