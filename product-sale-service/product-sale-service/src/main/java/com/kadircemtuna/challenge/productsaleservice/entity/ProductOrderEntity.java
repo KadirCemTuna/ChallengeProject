@@ -1,8 +1,16 @@
 package com.kadircemtuna.challenge.productsaleservice.entity;
 
+import javax.persistence.*;
+
+@Table(name = "productOrder")
+@Entity
 public class ProductOrderEntity {
+  @GeneratedValue(strategy = GenerationType.AUTO)
+  @Id
   private Long productOrderId;
+  @Column(name = "productId")
   private Long productId;
+  @Column(name = "saleCode")
   private String saleCode;
 
   public Long getProductOrderId() {

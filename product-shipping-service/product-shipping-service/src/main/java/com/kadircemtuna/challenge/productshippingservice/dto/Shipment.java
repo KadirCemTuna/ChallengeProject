@@ -6,6 +6,7 @@ public class Shipment {
   private Long saleId;
   private String status;
   private Date createdAt;
+  private ProductOrder productOrder;
 
   public Long getSaleId() {
     return saleId;
