@@ -1,8 +1,13 @@
 package com.kadircemtuna.challenge.productshippingservice.entity;
 
+import javax.persistence.*;
 import java.util.Date;
 
+@Table(name = "shipment")
+@Entity
 public class ShipmentEntity {
+  @GeneratedValue(strategy = GenerationType.AUTO)
+  @Id
   private Long saleId;
   private String status;
   private Date createdAt;
