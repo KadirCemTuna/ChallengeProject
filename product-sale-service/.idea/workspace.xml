@@ -19,7 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="698ad2f7-b177-41aa-a708-21c2648ac109" name="Default Changelist" comment="" />
+    <list default="true" id="698ad2f7-b177-41aa-a708-21c2648ac109" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../discovery-server/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../discovery-server/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../discovery-server/discovery-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../discovery-server/discovery-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../discovery-server/discovery-server/src/main/java/com/kadircemtuna/challenge/discoveryserver/DiscoveryServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../discovery-server/discovery-server/src/main/java/com/kadircemtuna/challenge/discoveryserver/DiscoveryServerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../discovery-server/discovery-server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../discovery-server/discovery-server/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,7 +43,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1XvhtpDALcNmakzDUI4QJqyLtVH" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -99,6 +107,7 @@
       <workItem from="1581968434830" duration="154000" />
       <workItem from="1581968705290" duration="2146000" />
       <workItem from="1582007648469" duration="5131000" />
+      <workItem from="1582028599830" duration="684000" />
     </task>
     <servers />
   </component>
@@ -115,6 +124,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1368" y="190" key="#Plugins" timestamp="1582028619113">

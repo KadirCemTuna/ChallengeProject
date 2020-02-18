@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0570befb-645d-492b-abe5-638e6a8c7df5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/discovery-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/discovery-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/discovery-server/src/main/java/com/kadircemtuna/challenge/discoveryserver/DiscoveryServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/discovery-server/src/main/java/com/kadircemtuna/challenge/discoveryserver/DiscoveryServerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/discovery-server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/discovery-server/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product-sale-service/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../product-sale-service/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,13 +23,23 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
   </component>
   <component name="RunManager">
     <configuration name="DiscoveryServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
@@ -48,7 +61,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1582028632064</updated>
-      <workItem from="1582028633753" duration="154000" />
+      <workItem from="1582028633753" duration="1121000" />
     </task>
     <servers />
   </component>
@@ -64,9 +77,64 @@
       <screen x="-1920" y="9" width="1920" height="1080" />
     </state>
     <state x="-1227" y="333" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1536.864/-1920.9.1920.1080@-1920.9.1920.1080" timestamp="1582028777805" />
+    <state width="1493" height="275" key="GridCell.Tab.0.bottom" timestamp="1582030699023">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="275" key="GridCell.Tab.0.bottom/0.0.1536.864/-1920.9.1920.1080@0.0.1536.864" timestamp="1582030699023" />
+    <state width="1493" height="275" key="GridCell.Tab.0.center" timestamp="1582030699022">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="275" key="GridCell.Tab.0.center/0.0.1536.864/-1920.9.1920.1080@0.0.1536.864" timestamp="1582030699022" />
+    <state width="1493" height="275" key="GridCell.Tab.0.left" timestamp="1582030699022">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="275" key="GridCell.Tab.0.left/0.0.1536.864/-1920.9.1920.1080@0.0.1536.864" timestamp="1582030699022" />
+    <state width="1493" height="275" key="GridCell.Tab.0.right" timestamp="1582030699022">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="275" key="GridCell.Tab.0.right/0.0.1536.864/-1920.9.1920.1080@0.0.1536.864" timestamp="1582030699022" />
+    <state width="1493" height="276" key="GridCell.Tab.1.bottom" timestamp="1582030698543">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="276" key="GridCell.Tab.1.bottom/0.0.1536.864/-1920.9.1920.1080@0.0.1536.864" timestamp="1582030698543" />
+    <state width="1493" height="276" key="GridCell.Tab.1.center" timestamp="1582030698542">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="276" key="GridCell.Tab.1.center/0.0.1536.864/-1920.9.1920.1080@0.0.1536.864" timestamp="1582030698542" />
+    <state width="1493" height="276" key="GridCell.Tab.1.left" timestamp="1582030698542">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="276" key="GridCell.Tab.1.left/0.0.1536.864/-1920.9.1920.1080@0.0.1536.864" timestamp="1582030698542" />
+    <state width="1493" height="276" key="GridCell.Tab.1.right" timestamp="1582030698542">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="276" key="GridCell.Tab.1.right/0.0.1536.864/-1920.9.1920.1080@0.0.1536.864" timestamp="1582030698542" />
+    <state width="1493" height="276" key="GridCell.Tab.2.bottom" timestamp="1582030698543">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="276" key="GridCell.Tab.2.bottom/0.0.1536.864/-1920.9.1920.1080@0.0.1536.864" timestamp="1582030698543" />
+    <state width="1493" height="276" key="GridCell.Tab.2.center" timestamp="1582030698543">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="276" key="GridCell.Tab.2.center/0.0.1536.864/-1920.9.1920.1080@0.0.1536.864" timestamp="1582030698543" />
+    <state width="1493" height="276" key="GridCell.Tab.2.left" timestamp="1582030698543">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="276" key="GridCell.Tab.2.left/0.0.1536.864/-1920.9.1920.1080@0.0.1536.864" timestamp="1582030698543" />
+    <state width="1493" height="276" key="GridCell.Tab.2.right" timestamp="1582030698543">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="276" key="GridCell.Tab.2.right/0.0.1536.864/-1920.9.1920.1080@0.0.1536.864" timestamp="1582030698543" />
     <state x="-1480" y="123" key="SettingsEditor" timestamp="1582028765389">
       <screen x="-1920" y="9" width="1920" height="1080" />
     </state>
     <state x="-1480" y="123" key="SettingsEditor/0.0.1536.864/-1920.9.1920.1080@-1920.9.1920.1080" timestamp="1582028765389" />
+    <state x="440" y="163" width="655" height="538" key="find.popup" timestamp="1582028851658">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="440" y="163" width="655" height="538" key="find.popup/0.0.1536.864/-1920.9.1920.1080@0.0.1536.864" timestamp="1582028851658" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/discovery_server$DiscoveryServerApplication.ic" NAME="DiscoveryServerApplication Coverage Results" MODIFIED="1582030601959" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
