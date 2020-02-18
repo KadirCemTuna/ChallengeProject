@@ -2,6 +2,7 @@ package com.kadircemtuna.challenge.productshippingservice.gateway;
 
 import com.kadircemtuna.challenge.productshippingservice.dto.ProductOrder;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Component;
 import org.springframework.web.reactive.function.client.WebClient;
 
@@ -18,8 +19,8 @@ public class ProductSaleGatewayImpl implements ProductSaleGateway {
         .get()
         .uri(url)
         .retrieve()
-        .bodyToMono(ProductOrder.class)
-        .block();
+        .bodyToFlux(ProductOrder.class)
+        .blockFirst();
 
     return productOrder;
   }

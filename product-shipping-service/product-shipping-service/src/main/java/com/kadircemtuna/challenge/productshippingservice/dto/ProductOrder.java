@@ -1,9 +1,12 @@
 package com.kadircemtuna.challenge.productshippingservice.dto;
 
+import java.util.List;
+
 public class ProductOrder {
   private Long productOrderId;
   private String saleCode;
-  private Product product;
+  private List<Long> productIdList;
+  private List<Product> product;
 
   public Long getProductOrderId() {
     return productOrderId;
@@ -11,14 +14,6 @@ public class ProductOrder {
 
   public void setProductOrderId(Long productOrderId) {
     this.productOrderId = productOrderId;
-  }
-
-  public Product getProduct() {
-    return product;
-  }
-
-  public void setProduct(Product product) {
-    this.product = product;
   }
 
   public String getSaleCode() {
@@ -29,12 +24,29 @@ public class ProductOrder {
     this.saleCode = saleCode;
   }
 
+  public List<Long> getProductIdList() {
+    return productIdList;
+  }
+
+  public void setProductIdList(List<Long> productIdList) {
+    this.productIdList = productIdList;
+  }
+
+  public List<Product> getProduct() {
+    return product;
+  }
+
+  public void setProduct(List<Product> product) {
+    this.product = product;
+  }
+
   @Override
   public String toString() {
     return "{" +
         "productOrderId:" + productOrderId +
         ", saleCode:'" + saleCode + '\'' +
-        ", productId:" + product.getId() +
+        ", productIdList:" + productIdList +
+        ", product:" + product +
         '}';
   }
 }
