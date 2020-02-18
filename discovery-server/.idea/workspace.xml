@@ -20,73 +20,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0570befb-645d-492b-abe5-638e6a8c7df5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../product-info-service/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../product-info-service/.idea/libraries/Maven__com_github_andrewoma_dexx_dexx_collections_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../product-info-service/.idea/libraries/Maven__com_github_vlsi_compactmap_compactmap_1_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../product-info-service/.idea/libraries/Maven__com_google_code_gson_gson_2_8_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../product-info-service/.idea/libraries/Maven__com_google_guava_guava_16_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../product-info-service/.idea/libraries/Maven__com_google_inject_guice_4_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../product-info-service/.idea/libraries/Maven__com_netflix_archaius_archaius_core_0_7_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../product-info-service/.idea/libraries/Maven__com_netflix_eureka_eureka_client_1_9_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../product-info-service/.idea/libraries/Maven__com_netflix_eureka_eureka_core_1_9_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../product-info-service/.idea/libraries/Maven__com_netflix_hystrix_hystrix_core_1_5_18.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../product-info-service/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_commons_util_0_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../product-info-service/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_eventbus_0_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../product-info-service/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_infix_0_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../product-info-service/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_statistics_0_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../product-info-service/.idea/libraries/Maven__com_netflix_ribbon_ribbon_2_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../product-info-service/.idea/libraries/Maven__com_netflix_ribbon_ribbon_core_2_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../product-info-service/.idea/libraries/Maven__com_netflix_ribbon_ribbon_eureka_2_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../product-info-service/.idea/libraries/Maven__com_netflix_ribbon_ribbon_httpclient_2_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../product-info-service/.idea/libraries/Maven__com_netflix_ribbon_ribbon_loadbalancer_2_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../product-info-service/.idea/libraries/Maven__com_netflix_ribbon_ribbon_transport_2_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../product-info-service/.idea/libraries/Maven__com_netflix_servo_servo_core_0_12_21.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../product-info-service/.idea/libraries/Maven__com_sun_jersey_contribs_jersey_apache_client4_1_19_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../product-info-service/.idea/libraries/Maven__com_sun_jersey_jersey_client_1_19_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../product-info-service/.idea/libraries/Maven__com_sun_jersey_jersey_core_1_19_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../product-info-service/.idea/libraries/Maven__com_thoughtworks_xstream_xstream_1_4_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../product-info-service/.idea/libraries/Maven__commons_codec_commons_codec_1_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../product-info-service/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../product-info-service/.idea/libraries/Maven__commons_configuration_commons_configuration_1_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../product-info-service/.idea/libraries/Maven__commons_jxpath_commons_jxpath_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../product-info-service/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../product-info-service/.idea/libraries/Maven__io_reactivex_rxjava_1_3_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../product-info-service/.idea/libraries/Maven__io_reactivex_rxnetty_0_4_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../product-info-service/.idea/libraries/Maven__io_reactivex_rxnetty_contexts_0_4_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../product-info-service/.idea/libraries/Maven__io_reactivex_rxnetty_servo_0_4_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../product-info-service/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../product-info-service/.idea/libraries/Maven__javax_ws_rs_jsr311_api_1_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../product-info-service/.idea/libraries/Maven__javax_xml_stream_stax_api_1_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../product-info-service/.idea/libraries/Maven__joda_time_joda_time_2_10_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../product-info-service/.idea/libraries/Maven__org_apache_commons_commons_math_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../product-info-service/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../product-info-service/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../product-info-service/.idea/libraries/Maven__org_bouncycastle_bcpkix_jdk15on_1_60.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../product-info-service/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_60.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../product-info-service/.idea/libraries/Maven__org_codehaus_jettison_jettison_1_3_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../product-info-service/.idea/libraries/Maven__org_codehaus_woodstox_stax2_api_3_1_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../product-info-service/.idea/libraries/Maven__org_codehaus_woodstox_woodstox_core_asl_4_4_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../product-info-service/.idea/libraries/Maven__org_hdrhistogram_HdrHistogram_2_1_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../product-info-service/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_commons_2_1_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../product-info-service/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_context_2_1_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../product-info-service/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_archaius_2_1_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../product-info-service/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_eureka_client_2_1_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../product-info-service/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_hystrix_2_1_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../product-info-service/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_ribbon_2_1_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../product-info-service/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_2_1_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../product-info-service/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_archaius_2_1_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../product-info-service/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_eureka_client_2_1_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../product-info-service/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_ribbon_2_1_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../product-info-service/.idea/libraries/Maven__org_springframework_security_spring_security_crypto_5_2_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../product-info-service/.idea/libraries/Maven__org_springframework_security_spring_security_rsa_1_0_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../product-info-service/.idea/libraries/Maven__stax_stax_api_1_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../product-info-service/.idea/libraries/Maven__xmlpull_xmlpull_1_1_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../product-info-service/.idea/libraries/Maven__xpp3_xpp3_min_1_1_4c.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../product-info-service/product-info-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../product-info-service/product-info-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product-info-service/product-info-service/src/main/java/com/kadircemtuna/challenge/productinfoservice/ProductInfoServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../product-info-service/product-info-service/src/main/java/com/kadircemtuna/challenge/productinfoservice/ProductInfoServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product-info-service/product-info-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../product-info-service/product-info-service/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../product-sale-service/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../product-sale-service/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../product-sale-service/product-sale-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../product-sale-service/product-sale-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../product-shipping-service/product-shipping-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../product-shipping-service/product-shipping-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product-sale-service/product-sale-service/src/main/java/com/kadircemtuna/challenge/productsaleservice/ProductSaleServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../product-sale-service/product-sale-service/src/main/java/com/kadircemtuna/challenge/productsaleservice/ProductSaleServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product-sale-service/product-sale-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../product-sale-service/product-sale-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product-shipping-service/product-shipping-service/src/main/java/com/kadircemtuna/challenge/productshippingservice/ProductShippingServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../product-shipping-service/product-shipping-service/src/main/java/com/kadircemtuna/challenge/productshippingservice/ProductShippingServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product-shipping-service/product-shipping-service/src/main/java/com/kadircemtuna/challenge/productshippingservice/dto/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/../product-shipping-service/product-shipping-service/src/main/java/com/kadircemtuna/challenge/productshippingservice/dto/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product-shipping-service/product-shipping-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../product-shipping-service/product-shipping-service/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,7 +83,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1582028632064</updated>
-      <workItem from="1582028633753" duration="2249000" />
+      <workItem from="1582028633753" duration="3077000" />
     </task>
     <servers />
   </component>
@@ -168,54 +110,54 @@
       <screen x="-1920" y="9" width="1920" height="1080" />
     </state>
     <state x="-1227" y="333" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1536.864/-1920.9.1920.1080@-1920.9.1920.1080" timestamp="1582028777805" />
-    <state width="1493" height="275" key="GridCell.Tab.0.bottom" timestamp="1582030699023">
+    <state width="1493" height="275" key="GridCell.Tab.0.bottom" timestamp="1582032080711">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="275" key="GridCell.Tab.0.bottom/0.0.1536.864/-1920.9.1920.1080@0.0.1536.864" timestamp="1582030699023" />
-    <state width="1493" height="275" key="GridCell.Tab.0.center" timestamp="1582030699022">
+    <state width="1493" height="275" key="GridCell.Tab.0.bottom/0.0.1536.864/-1920.9.1920.1080@0.0.1536.864" timestamp="1582032080711" />
+    <state width="1493" height="275" key="GridCell.Tab.0.center" timestamp="1582032080711">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="275" key="GridCell.Tab.0.center/0.0.1536.864/-1920.9.1920.1080@0.0.1536.864" timestamp="1582030699022" />
-    <state width="1493" height="275" key="GridCell.Tab.0.left" timestamp="1582030699022">
+    <state width="1493" height="275" key="GridCell.Tab.0.center/0.0.1536.864/-1920.9.1920.1080@0.0.1536.864" timestamp="1582032080711" />
+    <state width="1493" height="275" key="GridCell.Tab.0.left" timestamp="1582032080711">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="275" key="GridCell.Tab.0.left/0.0.1536.864/-1920.9.1920.1080@0.0.1536.864" timestamp="1582030699022" />
-    <state width="1493" height="275" key="GridCell.Tab.0.right" timestamp="1582030699022">
+    <state width="1493" height="275" key="GridCell.Tab.0.left/0.0.1536.864/-1920.9.1920.1080@0.0.1536.864" timestamp="1582032080711" />
+    <state width="1493" height="275" key="GridCell.Tab.0.right" timestamp="1582032080711">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="275" key="GridCell.Tab.0.right/0.0.1536.864/-1920.9.1920.1080@0.0.1536.864" timestamp="1582030699022" />
-    <state width="1493" height="276" key="GridCell.Tab.1.bottom" timestamp="1582030698543">
+    <state width="1493" height="275" key="GridCell.Tab.0.right/0.0.1536.864/-1920.9.1920.1080@0.0.1536.864" timestamp="1582032080711" />
+    <state width="1493" height="275" key="GridCell.Tab.1.bottom" timestamp="1582032080712">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="276" key="GridCell.Tab.1.bottom/0.0.1536.864/-1920.9.1920.1080@0.0.1536.864" timestamp="1582030698543" />
-    <state width="1493" height="276" key="GridCell.Tab.1.center" timestamp="1582030698542">
+    <state width="1493" height="275" key="GridCell.Tab.1.bottom/0.0.1536.864/-1920.9.1920.1080@0.0.1536.864" timestamp="1582032080712" />
+    <state width="1493" height="275" key="GridCell.Tab.1.center" timestamp="1582032080711">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="276" key="GridCell.Tab.1.center/0.0.1536.864/-1920.9.1920.1080@0.0.1536.864" timestamp="1582030698542" />
-    <state width="1493" height="276" key="GridCell.Tab.1.left" timestamp="1582030698542">
+    <state width="1493" height="275" key="GridCell.Tab.1.center/0.0.1536.864/-1920.9.1920.1080@0.0.1536.864" timestamp="1582032080711" />
+    <state width="1493" height="275" key="GridCell.Tab.1.left" timestamp="1582032080711">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="276" key="GridCell.Tab.1.left/0.0.1536.864/-1920.9.1920.1080@0.0.1536.864" timestamp="1582030698542" />
-    <state width="1493" height="276" key="GridCell.Tab.1.right" timestamp="1582030698542">
+    <state width="1493" height="275" key="GridCell.Tab.1.left/0.0.1536.864/-1920.9.1920.1080@0.0.1536.864" timestamp="1582032080711" />
+    <state width="1493" height="275" key="GridCell.Tab.1.right" timestamp="1582032080712">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="276" key="GridCell.Tab.1.right/0.0.1536.864/-1920.9.1920.1080@0.0.1536.864" timestamp="1582030698542" />
-    <state width="1493" height="276" key="GridCell.Tab.2.bottom" timestamp="1582030698543">
+    <state width="1493" height="275" key="GridCell.Tab.1.right/0.0.1536.864/-1920.9.1920.1080@0.0.1536.864" timestamp="1582032080712" />
+    <state width="1493" height="275" key="GridCell.Tab.2.bottom" timestamp="1582032080712">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="276" key="GridCell.Tab.2.bottom/0.0.1536.864/-1920.9.1920.1080@0.0.1536.864" timestamp="1582030698543" />
-    <state width="1493" height="276" key="GridCell.Tab.2.center" timestamp="1582030698543">
+    <state width="1493" height="275" key="GridCell.Tab.2.bottom/0.0.1536.864/-1920.9.1920.1080@0.0.1536.864" timestamp="1582032080712" />
+    <state width="1493" height="275" key="GridCell.Tab.2.center" timestamp="1582032080712">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="276" key="GridCell.Tab.2.center/0.0.1536.864/-1920.9.1920.1080@0.0.1536.864" timestamp="1582030698543" />
-    <state width="1493" height="276" key="GridCell.Tab.2.left" timestamp="1582030698543">
+    <state width="1493" height="275" key="GridCell.Tab.2.center/0.0.1536.864/-1920.9.1920.1080@0.0.1536.864" timestamp="1582032080712" />
+    <state width="1493" height="275" key="GridCell.Tab.2.left" timestamp="1582032080712">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="276" key="GridCell.Tab.2.left/0.0.1536.864/-1920.9.1920.1080@0.0.1536.864" timestamp="1582030698543" />
-    <state width="1493" height="276" key="GridCell.Tab.2.right" timestamp="1582030698543">
+    <state width="1493" height="275" key="GridCell.Tab.2.left/0.0.1536.864/-1920.9.1920.1080@0.0.1536.864" timestamp="1582032080712" />
+    <state width="1493" height="275" key="GridCell.Tab.2.right" timestamp="1582032080712">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="276" key="GridCell.Tab.2.right/0.0.1536.864/-1920.9.1920.1080@0.0.1536.864" timestamp="1582030698543" />
+    <state width="1493" height="275" key="GridCell.Tab.2.right/0.0.1536.864/-1920.9.1920.1080@0.0.1536.864" timestamp="1582032080712" />
     <state x="-1480" y="123" key="SettingsEditor" timestamp="1582028765389">
       <screen x="-1920" y="9" width="1920" height="1080" />
     </state>
