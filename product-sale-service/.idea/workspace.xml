@@ -20,14 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="698ad2f7-b177-41aa-a708-21c2648ac109" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/product-sale-service/src/main/java/com/kadircemtuna/challenge/productsaleservice/dto/Shipment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-sale-service/src/main/java/com/kadircemtuna/challenge/productsaleservice/gateway/ProductShipmentGateway.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-sale-service/src/main/java/com/kadircemtuna/challenge/productsaleservice/gateway/ProductShipmentGatewayImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-sale-service/src/main/java/com/kadircemtuna/challenge/productsaleservice/controller/ProductOrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-sale-service/src/main/java/com/kadircemtuna/challenge/productsaleservice/controller/ProductOrderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-sale-service/src/main/java/com/kadircemtuna/challenge/productsaleservice/gateway/ProductInformationGatewayImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-sale-service/src/main/java/com/kadircemtuna/challenge/productsaleservice/gateway/ProductInformationGatewayImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-sale-service/src/main/java/com/kadircemtuna/challenge/productsaleservice/service/ProductOrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-sale-service/src/main/java/com/kadircemtuna/challenge/productsaleservice/service/ProductOrderService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-sale-service/src/main/java/com/kadircemtuna/challenge/productsaleservice/service/ProductOrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-sale-service/src/main/java/com/kadircemtuna/challenge/productsaleservice/service/ProductOrderServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +45,8 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -101,6 +96,7 @@
       <workItem from="1581968208059" duration="38000" />
       <workItem from="1581968434830" duration="154000" />
       <workItem from="1581968705290" duration="2146000" />
+      <workItem from="1582007648469" duration="650000" />
     </task>
     <servers />
   </component>
@@ -140,25 +136,25 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="549" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1581933159627" />
-    <state width="1493" height="255" key="GridCell.Tab.0.bottom" timestamp="1581968593735">
+    <state width="1493" height="254" key="GridCell.Tab.0.bottom" timestamp="1582007698594">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="271" key="GridCell.Tab.0.bottom/0.0.1536.864/-1920.9.1920.1080@0.0.1536.864" timestamp="1581953651941" />
+    <state width="1493" height="254" key="GridCell.Tab.0.bottom/0.0.1536.864/-1920.9.1920.1080@0.0.1536.864" timestamp="1582007698594" />
     <state width="1493" height="255" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1581968593735" />
-    <state width="1493" height="255" key="GridCell.Tab.0.center" timestamp="1581968593735">
+    <state width="1493" height="254" key="GridCell.Tab.0.center" timestamp="1582007698594">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="271" key="GridCell.Tab.0.center/0.0.1536.864/-1920.9.1920.1080@0.0.1536.864" timestamp="1581953651941" />
+    <state width="1493" height="254" key="GridCell.Tab.0.center/0.0.1536.864/-1920.9.1920.1080@0.0.1536.864" timestamp="1582007698594" />
     <state width="1493" height="255" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1581968593735" />
-    <state width="1493" height="255" key="GridCell.Tab.0.left" timestamp="1581968593735">
+    <state width="1493" height="254" key="GridCell.Tab.0.left" timestamp="1582007698593">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="271" key="GridCell.Tab.0.left/0.0.1536.864/-1920.9.1920.1080@0.0.1536.864" timestamp="1581953651941" />
+    <state width="1493" height="254" key="GridCell.Tab.0.left/0.0.1536.864/-1920.9.1920.1080@0.0.1536.864" timestamp="1582007698593" />
     <state width="1493" height="255" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1581968593735" />
-    <state width="1493" height="255" key="GridCell.Tab.0.right" timestamp="1581968593735">
+    <state width="1493" height="254" key="GridCell.Tab.0.right" timestamp="1582007698594">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="271" key="GridCell.Tab.0.right/0.0.1536.864/-1920.9.1920.1080@0.0.1536.864" timestamp="1581953651941" />
+    <state width="1493" height="254" key="GridCell.Tab.0.right/0.0.1536.864/-1920.9.1920.1080@0.0.1536.864" timestamp="1582007698594" />
     <state width="1493" height="255" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1581968593735" />
     <state width="1493" height="255" key="GridCell.Tab.1.bottom" timestamp="1581968593740">
       <screen x="0" y="0" width="1536" height="864" />
@@ -204,6 +200,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="249" y="7" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1581932711324" />
+    <state x="578" y="346" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582011299379">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="578" y="346" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.864/-1920.9.1920.1080@0.0.1536.864" timestamp="1582011299379" />
     <state x="314" y="161" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1581967549635">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
