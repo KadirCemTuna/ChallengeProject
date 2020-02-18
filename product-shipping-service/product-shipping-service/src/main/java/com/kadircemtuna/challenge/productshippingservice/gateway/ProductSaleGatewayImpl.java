@@ -13,7 +13,7 @@ public class ProductSaleGatewayImpl implements ProductSaleGateway {
 
   @Override
   public ProductOrder inquireProductOrder(Long orderId) {
-    String url = "http://localhost:8081/sale/" + orderId.toString();
+    String url = "http://product-sale-service/sale/" + orderId.toString();
 
     ProductOrder productOrder = this.webClientBuilder.build()
         .get()

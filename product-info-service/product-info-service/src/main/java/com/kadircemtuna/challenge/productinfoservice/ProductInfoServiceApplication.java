@@ -10,11 +10,6 @@ import org.springframework.web.client.RestTemplate;
 @EnableEurekaClient
 public class ProductInfoServiceApplication {
 
-	@Bean
-	public RestTemplate getRestTemplate(){
-		return new RestTemplate();
-	}
-
 	public static void main(String[] args) {
 		SpringApplication.run(ProductInfoServiceApplication.class, args);
 	}
