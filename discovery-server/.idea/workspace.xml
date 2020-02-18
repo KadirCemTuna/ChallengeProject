@@ -20,9 +20,53 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0570befb-645d-492b-abe5-638e6a8c7df5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../product-info-service/.idea/libraries/Maven__io_springfox_springfox_core_2_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product-info-service/.idea/libraries/Maven__io_springfox_springfox_schema_2_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product-info-service/.idea/libraries/Maven__io_springfox_springfox_spi_2_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product-info-service/.idea/libraries/Maven__io_springfox_springfox_spring_web_2_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product-info-service/.idea/libraries/Maven__io_springfox_springfox_swagger2_2_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product-info-service/.idea/libraries/Maven__io_springfox_springfox_swagger_common_2_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product-info-service/.idea/libraries/Maven__io_springfox_springfox_swagger_ui_2_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product-info-service/.idea/libraries/Maven__io_swagger_swagger_annotations_1_5_20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product-info-service/.idea/libraries/Maven__io_swagger_swagger_models_1_5_20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product-info-service/.idea/libraries/Maven__org_mapstruct_mapstruct_1_2_0_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product-info-service/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_core_1_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product-info-service/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_metadata_1_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product-sale-service/.idea/libraries/Maven__io_springfox_springfox_core_2_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product-sale-service/.idea/libraries/Maven__io_springfox_springfox_schema_2_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product-sale-service/.idea/libraries/Maven__io_springfox_springfox_spi_2_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product-sale-service/.idea/libraries/Maven__io_springfox_springfox_spring_web_2_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product-sale-service/.idea/libraries/Maven__io_springfox_springfox_swagger2_2_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product-sale-service/.idea/libraries/Maven__io_springfox_springfox_swagger_common_2_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product-sale-service/.idea/libraries/Maven__io_springfox_springfox_swagger_ui_2_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product-sale-service/.idea/libraries/Maven__io_swagger_swagger_annotations_1_5_20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product-sale-service/.idea/libraries/Maven__io_swagger_swagger_models_1_5_20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product-sale-service/.idea/libraries/Maven__org_mapstruct_mapstruct_1_2_0_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product-sale-service/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_core_1_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product-sale-service/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_metadata_1_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product-sale-service/product-sale-service/src/main/java/com/kadircemtuna/challenge/productsaleservice/SpringFoxConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product-shipping-service/.idea/libraries/Maven__io_springfox_springfox_core_2_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product-shipping-service/.idea/libraries/Maven__io_springfox_springfox_schema_2_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product-shipping-service/.idea/libraries/Maven__io_springfox_springfox_spi_2_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product-shipping-service/.idea/libraries/Maven__io_springfox_springfox_spring_web_2_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product-shipping-service/.idea/libraries/Maven__io_springfox_springfox_swagger2_2_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product-shipping-service/.idea/libraries/Maven__io_springfox_springfox_swagger_common_2_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product-shipping-service/.idea/libraries/Maven__io_springfox_springfox_swagger_ui_2_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product-shipping-service/.idea/libraries/Maven__io_swagger_swagger_annotations_1_5_20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product-shipping-service/.idea/libraries/Maven__io_swagger_swagger_models_1_5_20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product-shipping-service/.idea/libraries/Maven__org_mapstruct_mapstruct_1_2_0_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product-shipping-service/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_core_1_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product-shipping-service/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_metadata_1_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product-shipping-service/product-shipping-service/src/main/java/com/kadircemtuna/challenge/productshippingservice/SpringFoxConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product-info-service/.idea/libraries/Maven__com_google_guava_guava_16_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../product-info-service/.idea/libraries/Maven__com_google_guava_guava_20_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product-info-service/product-info-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../product-info-service/product-info-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product-info-service/product-info-service/src/main/java/com/kadircemtuna/challenge/productinfoservice/ProductInfoServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../product-info-service/product-info-service/src/main/java/com/kadircemtuna/challenge/productinfoservice/ProductInfoServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product-sale-service/.idea/libraries/Maven__com_google_guava_guava_16_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../product-sale-service/.idea/libraries/Maven__com_google_guava_guava_20_0.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../product-sale-service/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../product-sale-service/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../product-sale-service/product-sale-service/src/main/java/com/kadircemtuna/challenge/productsaleservice/ProductSaleServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../product-sale-service/product-sale-service/src/main/java/com/kadircemtuna/challenge/productsaleservice/ProductSaleServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../product-sale-service/product-sale-service/src/main/java/com/kadircemtuna/challenge/productsaleservice/gateway/ProductInformationGatewayImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../product-sale-service/product-sale-service/src/main/java/com/kadircemtuna/challenge/productsaleservice/gateway/ProductInformationGatewayImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product-sale-service/product-sale-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../product-sale-service/product-sale-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product-shipping-service/.idea/libraries/Maven__com_google_guava_guava_16_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../product-shipping-service/.idea/libraries/Maven__com_google_guava_guava_20_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product-shipping-service/product-shipping-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../product-shipping-service/product-shipping-service/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +121,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1582028632064</updated>
-      <workItem from="1582028633753" duration="3077000" />
+      <workItem from="1582028633753" duration="4351000" />
     </task>
     <servers />
   </component>
@@ -104,38 +148,38 @@
       <screen x="-1920" y="9" width="1920" height="1080" />
     </state>
     <state x="-1227" y="333" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1536.864/-1920.9.1920.1080@-1920.9.1920.1080" timestamp="1582028777805" />
-    <state width="1493" height="275" key="GridCell.Tab.0.bottom" timestamp="1582032080711">
+    <state width="1493" height="222" key="GridCell.Tab.0.bottom" timestamp="1582034279848">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="275" key="GridCell.Tab.0.bottom/0.0.1536.864/-1920.9.1920.1080@0.0.1536.864" timestamp="1582032080711" />
-    <state width="1493" height="275" key="GridCell.Tab.0.center" timestamp="1582032080711">
+    <state width="1493" height="222" key="GridCell.Tab.0.bottom/0.0.1536.864/-1920.9.1920.1080@0.0.1536.864" timestamp="1582034279848" />
+    <state width="1493" height="222" key="GridCell.Tab.0.center" timestamp="1582034279848">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="275" key="GridCell.Tab.0.center/0.0.1536.864/-1920.9.1920.1080@0.0.1536.864" timestamp="1582032080711" />
-    <state width="1493" height="275" key="GridCell.Tab.0.left" timestamp="1582032080711">
+    <state width="1493" height="222" key="GridCell.Tab.0.center/0.0.1536.864/-1920.9.1920.1080@0.0.1536.864" timestamp="1582034279848" />
+    <state width="1493" height="222" key="GridCell.Tab.0.left" timestamp="1582034279848">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="275" key="GridCell.Tab.0.left/0.0.1536.864/-1920.9.1920.1080@0.0.1536.864" timestamp="1582032080711" />
-    <state width="1493" height="275" key="GridCell.Tab.0.right" timestamp="1582032080711">
+    <state width="1493" height="222" key="GridCell.Tab.0.left/0.0.1536.864/-1920.9.1920.1080@0.0.1536.864" timestamp="1582034279848" />
+    <state width="1493" height="222" key="GridCell.Tab.0.right" timestamp="1582034279848">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="275" key="GridCell.Tab.0.right/0.0.1536.864/-1920.9.1920.1080@0.0.1536.864" timestamp="1582032080711" />
-    <state width="1493" height="275" key="GridCell.Tab.1.bottom" timestamp="1582032080712">
+    <state width="1493" height="222" key="GridCell.Tab.0.right/0.0.1536.864/-1920.9.1920.1080@0.0.1536.864" timestamp="1582034279848" />
+    <state width="1493" height="222" key="GridCell.Tab.1.bottom" timestamp="1582034279849">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="275" key="GridCell.Tab.1.bottom/0.0.1536.864/-1920.9.1920.1080@0.0.1536.864" timestamp="1582032080712" />
-    <state width="1493" height="275" key="GridCell.Tab.1.center" timestamp="1582032080711">
+    <state width="1493" height="222" key="GridCell.Tab.1.bottom/0.0.1536.864/-1920.9.1920.1080@0.0.1536.864" timestamp="1582034279849" />
+    <state width="1493" height="222" key="GridCell.Tab.1.center" timestamp="1582034279849">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="275" key="GridCell.Tab.1.center/0.0.1536.864/-1920.9.1920.1080@0.0.1536.864" timestamp="1582032080711" />
-    <state width="1493" height="275" key="GridCell.Tab.1.left" timestamp="1582032080711">
+    <state width="1493" height="222" key="GridCell.Tab.1.center/0.0.1536.864/-1920.9.1920.1080@0.0.1536.864" timestamp="1582034279849" />
+    <state width="1493" height="222" key="GridCell.Tab.1.left" timestamp="1582034279849">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="275" key="GridCell.Tab.1.left/0.0.1536.864/-1920.9.1920.1080@0.0.1536.864" timestamp="1582032080711" />
-    <state width="1493" height="275" key="GridCell.Tab.1.right" timestamp="1582032080712">
+    <state width="1493" height="222" key="GridCell.Tab.1.left/0.0.1536.864/-1920.9.1920.1080@0.0.1536.864" timestamp="1582034279849" />
+    <state width="1493" height="222" key="GridCell.Tab.1.right" timestamp="1582034279849">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="275" key="GridCell.Tab.1.right/0.0.1536.864/-1920.9.1920.1080@0.0.1536.864" timestamp="1582032080712" />
+    <state width="1493" height="222" key="GridCell.Tab.1.right/0.0.1536.864/-1920.9.1920.1080@0.0.1536.864" timestamp="1582034279849" />
     <state width="1493" height="275" key="GridCell.Tab.2.bottom" timestamp="1582032080712">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
