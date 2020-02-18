@@ -1,13 +1,72 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0570befb-645d-492b-abe5-638e6a8c7df5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1XyqMJLaCJVZydMF2Qvr132U2mU" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunManager">
+    <configuration name="DiscoveryServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="discovery-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.kadircemtuna.challenge.discoveryserver.DiscoveryServerApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0570befb-645d-492b-abe5-638e6a8c7df5" name="Default Changelist" comment="" />
+      <created>1582028632064</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582028632064</updated>
+      <workItem from="1582028633753" duration="154000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="-1506" y="204" width="1100" height="690" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582028790064">
+      <screen x="-1920" y="9" width="1920" height="1080" />
+    </state>
+    <state x="-1506" y="204" width="1100" height="690" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.864/-1920.9.1920.1080@-1920.9.1920.1080" timestamp="1582028790064" />
+    <state x="-1227" y="333" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1582028777805">
+      <screen x="-1920" y="9" width="1920" height="1080" />
+    </state>
+    <state x="-1227" y="333" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1536.864/-1920.9.1920.1080@-1920.9.1920.1080" timestamp="1582028777805" />
+    <state x="-1480" y="123" key="SettingsEditor" timestamp="1582028765389">
+      <screen x="-1920" y="9" width="1920" height="1080" />
+    </state>
+    <state x="-1480" y="123" key="SettingsEditor/0.0.1536.864/-1920.9.1920.1080@-1920.9.1920.1080" timestamp="1582028765389" />
   </component>
 </project>
