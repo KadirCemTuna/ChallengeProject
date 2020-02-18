@@ -12,7 +12,7 @@ public class ProductInformationGatewayImpl implements ProductInformationGateway 
 
   @Override
   public Product inquireProduct(Long productId) {
-    String url = "http://localhost:8080/product/" + productId.toString();
+    String url = "http://product-info-service/product/" + productId.toString();
 
     Product product = this.webClientBuilder.build()
         .get()

@@ -12,7 +12,7 @@ public class ProductShipmentGatewayImpl implements ProductShipmentGateway {
 
   @Override
   public Shipment inquireShipment(Long saleId) {
-    String url = "http://localhost:8083/shipment/" + saleId.toString();
+    String url = "http://product-shipment-service/shipment/" + saleId.toString();
 
     Shipment shipment = this.webClientBuilder.build()
         .get()
